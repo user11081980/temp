@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="Page-1" id="TLdYYGTj8c8jQ0NEoChx">
+    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1FbOqA_suXgTDa79VxNz-1" value="Azure Blob Storage" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="35.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-2" value="Azure AI Search" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="41.53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-3" value="Add skills&lt;br&gt;Create and customize index&lt;br&gt;Schedule crawling, only pulls new data" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="230.77" y="440" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-4" value="Azure OpenAI" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Azure_OpenAI.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-5" value="Creates embeddings with Azure OpenAI, stores them in a new field of the same document.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EMBEDDINGS ARE ONLY USED TO RETRIEVE THE BEST MATCHING DATA, NOT TO GENERATE RESPONSES. THE LLM GENERATES RESPONSES BASED ON THE SEARCH RESULTS&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="440" width="140" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-6" value="Azure Function&lt;div&gt;(Or Other Compute)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="34" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-7" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines if external functions must be called and with what parameters, so that the application/ agent/ Semantic Kernel calls the function. The LLM uses the function response to generate its own response.&lt;br&gt;The&lt;br/&gt;LLM does not call the function directly. Instead, the client application does.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;In&lt;br&gt;function calling, the LLM asks the client application to call external&lt;br&gt;functions." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="140" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-8" value="Semantic Kernel is an orchestrator between the client application and the LLM." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="140" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
