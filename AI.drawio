@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="4">
   <diagram name="RAG. Manual Vectorization" id="TLdYYGTj8c8jQ0NEoChx">
     <mxGraphModel dx="2226" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,18 +9,6 @@
         </mxCell>
         <mxCell id="9L8nuqm70odK18xZJbXd-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" value="EMBEDDING AND INDEXING" vertex="1">
           <mxGeometry height="230" width="800" x="-760" y="-60" as="geometry" />
-        </mxCell>
-        <mxCell id="1FbOqA_suXgTDa79VxNz-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Add skills&lt;br&gt;Create and customize index&lt;br&gt;Schedule crawling, only pulls new data" vertex="1">
-          <mxGeometry height="160" width="140" x="130" y="570" as="geometry" />
-        </mxCell>
-        <mxCell id="1FbOqA_suXgTDa79VxNz-5" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Creates embeddings with Azure OpenAI, stores them in a new field of the same document.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EMBEDDINGS ARE ONLY USED TO RETRIEVE THE BEST MATCHING DATA, NOT TO GENERATE RESPONSES. THE LLM GENERATES RESPONSES BASED ON THE SEARCH RESULTS&lt;/div&gt;" vertex="1">
-          <mxGeometry height="310" width="140" x="990" y="670" as="geometry" />
-        </mxCell>
-        <mxCell id="1FbOqA_suXgTDa79VxNz-7" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines if external functions must be called and with what parameters, so that the application/ agent/ Semantic Kernel calls the function. The LLM uses the function response to generate its own response.&lt;br&gt;The&lt;br/&gt;LLM does not call the function directly. Instead, the client application does.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;In&lt;br&gt;function calling, the LLM asks the client application to call external&lt;br&gt;functions." vertex="1">
-          <mxGeometry height="320" width="140" x="410" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="1FbOqA_suXgTDa79VxNz-8" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
-          <mxGeometry height="160" width="140" x="700" y="630" as="geometry" />
         </mxCell>
         <mxCell id="9L8nuqm70odK18xZJbXd-43" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" value="Azure Function" vertex="1">
           <mxGeometry height="30" width="34" x="320" y="40" as="geometry" />
@@ -80,6 +68,26 @@
           <mxGeometry relative="1" x="-0.3173" y="3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="RAG. Integrated Vectorization" id="Ptv23nEmOS9DJDjsn5a4">
+    <mxGraphModel dx="2226" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-0" />
+        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-1" parent="wh7MAJsGTfFlFtN7_Iw6-0" />
+        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-4" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Add skills&lt;br&gt;Create and customize index&lt;br&gt;Schedule crawling, only pulls new data" vertex="1">
+          <mxGeometry height="160" width="140" x="-790" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-5" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Creates embeddings with Azure OpenAI, stores them in a new field of the same document.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EMBEDDINGS ARE ONLY USED TO RETRIEVE THE BEST MATCHING DATA, NOT TO GENERATE RESPONSES. THE LLM GENERATES RESPONSES BASED ON THE SEARCH RESULTS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="140" x="80" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-6" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines if external functions must be called and with what parameters, so that the application/ agent/ Semantic Kernel calls the function. The LLM uses the function response to generate its own response.&lt;br&gt;The&lt;br/&gt;LLM does not call the function directly. Instead, the client application does.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;In&lt;br&gt;function calling, the LLM asks the client application to call external&lt;br&gt;functions." vertex="1">
+          <mxGeometry height="320" width="140" x="-530" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-7" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
+          <mxGeometry height="160" width="140" x="-190" y="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
