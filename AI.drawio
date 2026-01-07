@@ -1,32 +1,49 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="3">
-  <diagram name="RAG" id="TLdYYGTj8c8jQ0NEoChx">
-    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="RAG. Manual Vectorization" id="TLdYYGTj8c8jQ0NEoChx">
+    <mxGraphModel dx="1826" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1FbOqA_suXgTDa79VxNz-1" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" value="Azure Blob Storage" vertex="1">
-          <mxGeometry height="30" width="35.71" x="120" y="320" as="geometry" />
+        <mxCell id="1FbOqA_suXgTDa79VxNz-1" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" value="Azure Blob Storage&lt;br&gt;(Or Other Data Store)" vertex="1">
+          <mxGeometry height="30" width="35.71" x="-40.00000000000002" y="40" as="geometry" />
         </mxCell>
         <mxCell id="1FbOqA_suXgTDa79VxNz-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" value="Azure AI Search" vertex="1">
-          <mxGeometry height="30" width="41.53" x="280" y="320" as="geometry" />
+          <mxGeometry height="30" width="41.53" x="570" y="170" as="geometry" />
         </mxCell>
         <mxCell id="1FbOqA_suXgTDa79VxNz-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Add skills&lt;br&gt;Create and customize index&lt;br&gt;Schedule crawling, only pulls new data" vertex="1">
-          <mxGeometry height="160" width="140" x="230.77" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="1FbOqA_suXgTDa79VxNz-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Azure_OpenAI.svg;" value="Azure OpenAI" vertex="1">
-          <mxGeometry height="30" width="30" x="560" y="320" as="geometry" />
+          <mxGeometry height="160" width="140" x="130" y="570" as="geometry" />
         </mxCell>
         <mxCell id="1FbOqA_suXgTDa79VxNz-5" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Creates embeddings with Azure OpenAI, stores them in a new field of the same document.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EMBEDDINGS ARE ONLY USED TO RETRIEVE THE BEST MATCHING DATA, NOT TO GENERATE RESPONSES. THE LLM GENERATES RESPONSES BASED ON THE SEARCH RESULTS&lt;/div&gt;" vertex="1">
-          <mxGeometry height="310" width="140" x="387" y="440" as="geometry" />
+          <mxGeometry height="310" width="140" x="990" y="670" as="geometry" />
         </mxCell>
         <mxCell id="1FbOqA_suXgTDa79VxNz-6" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" value="Azure Function&lt;div&gt;(Or Other Compute)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="34" x="440" y="320" as="geometry" />
+          <mxGeometry height="30" width="34" x="810" y="390" as="geometry" />
         </mxCell>
         <mxCell id="1FbOqA_suXgTDa79VxNz-7" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines if external functions must be called and with what parameters, so that the application/ agent/ Semantic Kernel calls the function. The LLM uses the function response to generate its own response.&lt;br&gt;The&lt;br/&gt;LLM does not call the function directly. Instead, the client application does.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;In&lt;br&gt;function calling, the LLM asks the client application to call external&lt;br&gt;functions." vertex="1">
-          <mxGeometry height="320" width="140" x="40" y="440" as="geometry" />
+          <mxGeometry height="320" width="140" x="410" y="390" as="geometry" />
         </mxCell>
         <mxCell id="1FbOqA_suXgTDa79VxNz-8" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
-          <mxGeometry height="160" width="140" x="640" y="440" as="geometry" />
+          <mxGeometry height="160" width="140" x="700" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="9L8nuqm70odK18xZJbXd-21" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="170" width="120" x="-400" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="1FbOqA_suXgTDa79VxNz-4" parent="9L8nuqm70odK18xZJbXd-21" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/ai_machine_learning/Azure_OpenAI.svg;" value="&lt;span&gt;Azure OpenAI&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9L8nuqm70odK18xZJbXd-5" parent="9L8nuqm70odK18xZJbXd-21" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" value="&lt;span&gt;Azure Function&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="34" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9L8nuqm70odK18xZJbXd-20" parent="9L8nuqm70odK18xZJbXd-21" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="170" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9L8nuqm70odK18xZJbXd-33" edge="1" parent="1" source="1FbOqA_suXgTDa79VxNz-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="9L8nuqm70odK18xZJbXd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9L8nuqm70odK18xZJbXd-34" connectable="0" parent="9L8nuqm70odK18xZJbXd-33" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontSize=12;" value="Generate Embeddings&lt;br&gt;(Stored in Original&lt;br&gt;JSON Documents)" vertex="1">
+          <mxGeometry relative="1" x="0.0167" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
