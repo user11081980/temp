@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9" pages="5">
   <diagram name="RAG. Manual Vectorization" id="TLdYYGTj8c8jQ0NEoChx">
     <mxGraphModel dx="2226" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,6 +117,14 @@
         <mxCell id="y3F3hf1Ldrot-30ICsZO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;Event Processor -&amp;gt; SQL Database: retrieve client data&lt;/div&gt;&lt;div&gt;SQL Database --&amp;gt; Event Processor:&lt;/div&gt;&lt;div&gt;Event Processor -&amp;gt; SQL Database: retrieve AI settings&lt;/div&gt;&lt;div&gt;Event Processor -&amp;gt; Event Processor: prepare AI request&lt;/div&gt;&lt;div&gt;Event Processor -&amp;gt; AI Chat Proxy: generate summary&lt;/div&gt;&lt;div&gt;AI Chat Proxy -&amp;gt; Azure OpenAI: generate summary&lt;/div&gt;&lt;div&gt;Azure OpenAI --&amp;gt; AI Chat Proxy:&lt;/div&gt;&lt;div&gt;AI Chat Proxy --&amp;gt; Event Processor:&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="400" x="-400" y="360" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q-ljUYgsPYMSq9XN2oMv" name="MCP">
+    <mxGraphModel dx="1426" dy="890" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
