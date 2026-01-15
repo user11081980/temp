@@ -81,13 +81,7 @@
           <mxGeometry height="160" width="140" x="-790" y="550" as="geometry" />
         </mxCell>
         <mxCell id="wh7MAJsGTfFlFtN7_Iw6-5" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Creates embeddings with Azure OpenAI, stores them in a new field of the same document.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EMBEDDINGS ARE ONLY USED TO RETRIEVE THE BEST MATCHING DATA, NOT TO GENERATE RESPONSES. THE LLM GENERATES RESPONSES BASED ON THE SEARCH RESULTS&lt;/div&gt;" vertex="1">
-          <mxGeometry height="310" width="140" x="80" y="530" as="geometry" />
-        </mxCell>
-        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-6" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines if external functions must be called and with what parameters, so that the application/ agent/ Semantic Kernel calls the function. The LLM uses the function response to generate its own response.&lt;br&gt;The&lt;br/&gt;LLM does not call the function directly. Instead, the client application does.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;In&lt;br&gt;function calling, the LLM asks the client application to call external&lt;br&gt;functions." vertex="1">
-          <mxGeometry height="320" width="140" x="-530" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="wh7MAJsGTfFlFtN7_Iw6-7" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
-          <mxGeometry height="160" width="140" x="-190" y="600" as="geometry" />
+          <mxGeometry height="310" width="140" x="-560" y="560" as="geometry" />
         </mxCell>
         <mxCell id="J27tIT1T6BCSpR3E-BKd-0" edge="1" parent="wh7MAJsGTfFlFtN7_Iw6-1" source="VNR9hUUbTWJYrGFczKf--0" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="vnpLCq7W35Zjy9GUYG4--1">
           <mxGeometry relative="1" as="geometry" />
@@ -115,8 +109,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="5tR8eMGha35eiLXBTC72" name="Semantic Kernel">
-    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="5tR8eMGha35eiLXBTC72" name="Semantic Kernel. Function Calling">
+    <mxGraphModel dx="1426" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,6 +119,12 @@
         </mxCell>
         <mxCell id="c4xOGzChEnjynyv-ijSV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;title: Semantic Kernel&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Semantic Kernel -&amp;gt; LLM: prompt and function definitions&lt;/div&gt;&lt;div&gt;LLM --&amp;gt; Semantic Kernel: request to function-calling with parameters&lt;/div&gt;&lt;div&gt;Semantic Kernel -&amp;gt; Function: function-calling with parameters&lt;/div&gt;&lt;div&gt;Function --&amp;gt; Semantic Kernel:&lt;/div&gt;&lt;div&gt;Semantic Kernel -&amp;gt; LLM: prompt and function results&lt;/div&gt;&lt;div&gt;LLM --&amp;gt; Semantic Kernel: generated response&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="400" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="uS8g44fw3jGtGXl6gr8--1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines what external functions should be called with what parameters.&lt;br&gt;&lt;br&gt;The LLM does not call the function directly. Instead, it instructs the client application to call it.&lt;br&gt;&lt;br&gt;The client then provides the prompt and function response to the LLM, which generates a response.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="240" x="560" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="UDxguRBSp8SS7RHZn3ju-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
+          <mxGeometry height="200" width="230" x="880" y="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
