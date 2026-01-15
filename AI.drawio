@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.10" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0" pages="5">
   <diagram name="RAG. Manual Vectorization" id="TLdYYGTj8c8jQ0NEoChx">
     <mxGraphModel dx="2226" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="RAG. Integrated Vectorization" id="Ptv23nEmOS9DJDjsn5a4">
-    <mxGraphModel dx="2226" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2626" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="wh7MAJsGTfFlFtN7_Iw6-0" />
         <mxCell id="wh7MAJsGTfFlFtN7_Iw6-1" parent="wh7MAJsGTfFlFtN7_Iw6-0" />
@@ -88,6 +88,29 @@
         </mxCell>
         <mxCell id="wh7MAJsGTfFlFtN7_Iw6-7" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
           <mxGeometry height="160" width="140" x="-190" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="J27tIT1T6BCSpR3E-BKd-0" edge="1" parent="wh7MAJsGTfFlFtN7_Iw6-1" source="VNR9hUUbTWJYrGFczKf--0" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="vnpLCq7W35Zjy9GUYG4--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qsalN-uc6J1VGdZnGIXX-0" connectable="0" parent="J27tIT1T6BCSpR3E-BKd-0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Automatic chunking and&lt;div&gt;embedding&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0672" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNR9hUUbTWJYrGFczKf--0" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" value="Azure Blob Storage&lt;br&gt;(Or Other Data Store)" vertex="1">
+          <mxGeometry height="30" width="35.71" x="-960" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="FEDwZa4OpX1hv2D-HA0M-0" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" value="Azure AI Search" vertex="1">
+          <mxGeometry height="30" width="41.53" x="-400" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vnpLCq7W35Zjy9GUYG4--1" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" value="INDEXING&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Indexer: retrieves data&lt;/div&gt;&lt;div&gt;Search index: stores data&lt;/div&gt;&lt;div&gt;Skillset text-split: chunks data&lt;/div&gt;&lt;div&gt;Skillset AzureOpenAIEmbedding&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="199.24" x="-599.24" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vnpLCq7W35Zjy9GUYG4--2" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" value="QUERYING&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Vectorizer: converts query to vector&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="-360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="qsalN-uc6J1VGdZnGIXX-1" parent="wh7MAJsGTfFlFtN7_Iw6-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="220" width="480" x="-620" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
