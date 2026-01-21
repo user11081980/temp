@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2" pages="8">
   <diagram id="EgoKpQ9dG_I4t-z5_hNx" name="RAG">
     <mxGraphModel dx="1826" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5tR8eMGha35eiLXBTC72" name="Semantic Kernel. Function Calling">
-    <mxGraphModel dx="1426" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,7 +171,7 @@
         <mxCell id="uS8g44fw3jGtGXl6gr8--1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;Function calling is a feature of LLMs, where LLMs determines what external functions should be called with what parameters.&lt;br&gt;&lt;br&gt;The LLM does not call the function directly. Instead, it instructs the client application to call it.&lt;br&gt;&lt;br&gt;The client then provides the prompt and function response to the LLM, which generates a response.&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="240" x="560" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="UDxguRBSp8SS7RHZn3ju-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM." vertex="1">
+        <mxCell id="UDxguRBSp8SS7RHZn3ju-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="Semantic Kernel is an orchestrator between the client application and the LLM.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In the context of Semantic Kernel, a function is actually a plugin. Semantic Kernel can connect to MCP servers through the MCPStdioPlugin and MCPStreamableHttpPlugin types. MCP merely exposes tools and resources but lacks of any intelligence whatsoever, therefore Semantic Kernel is still necessary for orchestration.&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="230" x="880" y="640" as="geometry" />
         </mxCell>
       </root>
