@@ -268,7 +268,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QjcE6TgphMBMOIdMQIXR-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;" value="Supporting Services" vertex="1">
-          <mxGeometry height="130" width="400" x="520" y="140" as="geometry" />
+          <mxGeometry height="120" width="320" x="600" y="120" as="geometry" />
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Loop - Validates Every File" vertex="1">
           <mxGeometry height="160" width="320" x="600" y="-120" as="geometry" />
@@ -324,13 +324,13 @@
           <mxGeometry height="60" width="100" x="360" y="-180" as="geometry" />
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-30" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/App_Configuration.svg;labelBackgroundColor=none;" value="App Configuration" vertex="1">
-          <mxGeometry height="40" width="37.65" x="580" y="180" as="geometry" />
+          <mxGeometry height="40" width="37.65" x="640" y="170" as="geometry" />
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-31" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;labelBackgroundColor=none;" value="App Insights" vertex="1">
-          <mxGeometry height="40" width="27.94" x="700" y="180" as="geometry" />
+          <mxGeometry height="40" width="27.94" x="746.03" y="170" as="geometry" />
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-32" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;labelBackgroundColor=none;" value="Container Registry" vertex="1">
-          <mxGeometry height="40" width="44.59" x="820" y="180" as="geometry" />
+          <mxGeometry height="40" width="44.59" x="840" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
