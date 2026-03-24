@@ -440,6 +440,9 @@
         <mxCell id="iQ8Ef_UtrzxA_1OyiZ2N-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="User" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="JeQvALNVrUHcQelfR1Pl-2" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#FFF9B2;strokeColor=#FFF2A1;spacingRight=20;" value="Triggers validation pipeline" vertex="1">
+          <mxGeometry height="60" width="100" x="40" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
