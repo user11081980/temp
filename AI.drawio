@@ -270,10 +270,10 @@
         <mxCell id="QjcE6TgphMBMOIdMQIXR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Loop - Validates Every File" vertex="1">
           <mxGeometry height="160" width="320" x="600" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" value="Validation Rules&lt;div&gt;(Cosmos DB)&lt;/div&gt;" vertex="1">
+        <mxCell id="QjcE6TgphMBMOIdMQIXR-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;" value="Validation Rules&lt;div&gt;(Cosmos DB)&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="40" x="640" y="-280" as="geometry" />
         </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-2" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" value="Documents to Validate&lt;br&gt;(Blob Storage)" vertex="1">
+        <mxCell id="QjcE6TgphMBMOIdMQIXR-2" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" value="Documents to Validate&lt;br&gt;(Blob Storage)" vertex="1">
           <mxGeometry height="30" width="35.71" x="440" y="-80" as="geometry" />
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-10" edge="1" parent="1" source="QjcE6TgphMBMOIdMQIXR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;flowAnimation=1;" target="QjcE6TgphMBMOIdMQIXR-1">
@@ -307,6 +307,9 @@
               <mxPoint x="460" y="80" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QjcE6TgphMBMOIdMQIXR-18" edge="1" parent="1" source="QjcE6TgphMBMOIdMQIXR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.049;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" target="QjcE6TgphMBMOIdMQIXR-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
