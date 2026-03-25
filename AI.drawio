@@ -270,14 +270,8 @@
         <mxCell id="QjcE6TgphMBMOIdMQIXR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;fontFamily=Verdana;fontSize=12;" value="Loop - Validates Every File" vertex="1">
           <mxGeometry height="160" width="320" x="600" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=left;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;fontFamily=Verdana;" value="Validation Rules&lt;div&gt;(Cosmos DB)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="40" x="640" y="-280" as="geometry" />
-        </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-2" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontFamily=Verdana;" value="Documents to Validate&lt;br&gt;(Blob Storage)" vertex="1">
+        <mxCell id="QjcE6TgphMBMOIdMQIXR-2" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/BlobBlock.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontFamily=Verdana;" value="Beneficiary Information&lt;br&gt;Documents to Validate&lt;br&gt;Validation Rules&lt;br&gt;(Blob Storage)" vertex="1">
           <mxGeometry height="30" width="35.71" x="440" y="-80" as="geometry" />
-        </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-10" edge="1" parent="1" source="QjcE6TgphMBMOIdMQIXR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;flowAnimation=1;dashed=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;" target="QjcE6TgphMBMOIdMQIXR-1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-17" edge="1" parent="1" source="QjcE6TgphMBMOIdMQIXR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;" target="QjcE6TgphMBMOIdMQIXR-4">
           <mxGeometry relative="1" as="geometry" />
@@ -316,20 +310,14 @@
         <mxCell id="QjcE6TgphMBMOIdMQIXR-18" edge="1" parent="1" source="QjcE6TgphMBMOIdMQIXR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.049;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;" target="QjcE6TgphMBMOIdMQIXR-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;flowAnimation=1;dashed=1;strokeWidth=2;fontFamily=Verdana;fontSize=12;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="-240" as="sourcePoint" />
-            <mxPoint x="671" y="-80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-28" parent="1" style="html=1;verticalLabelPosition=middle;align=center;labelBackgroundColor=none;verticalAlign=middle;strokeWidth=2;strokeColor=#FFF2A1;shadow=0;dashed=0;shape=mxgraph.ios7.icons.message;fillColor=#FFF9B2;labelPosition=center;fontFamily=Verdana;fontSize=12;" value="Triggers&lt;br&gt;Validation&lt;div&gt;Pipeline&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="360" y="-190" as="geometry" />
+          <mxGeometry height="70" width="100" x="280" y="-210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="M0eed7tmBWzlmhme8xMd" name="Wave 9 and 10. Flow Diagram">
-    <mxGraphModel dx="1826" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
