@@ -267,9 +267,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;verticalAlign=top;fontFamily=Verdana;fontSize=12;" value="Supporting Services" vertex="1">
-          <mxGeometry height="120" width="320" x="600" y="120" as="geometry" />
-        </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;fontFamily=Verdana;fontSize=12;" value="Loop - Validates Every File" vertex="1">
           <mxGeometry height="160" width="320" x="600" y="-120" as="geometry" />
         </mxCell>
@@ -327,15 +324,6 @@
         </mxCell>
         <mxCell id="QjcE6TgphMBMOIdMQIXR-28" parent="1" style="html=1;verticalLabelPosition=middle;align=center;labelBackgroundColor=none;verticalAlign=middle;strokeWidth=2;strokeColor=#FFF2A1;shadow=0;dashed=0;shape=mxgraph.ios7.icons.message;fillColor=#FFF9B2;labelPosition=center;fontFamily=Verdana;fontSize=12;" value="Triggers&lt;br&gt;Validation&lt;div&gt;Pipeline&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="100" x="360" y="-190" as="geometry" />
-        </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-30" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/App_Configuration.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="App Configuration" vertex="1">
-          <mxGeometry height="40" width="37.65" x="640" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-31" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="App Insights" vertex="1">
-          <mxGeometry height="40" width="27.94" x="746.03" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="QjcE6TgphMBMOIdMQIXR-32" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="Container Registry" vertex="1">
-          <mxGeometry height="40" width="44.59" x="840" y="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
