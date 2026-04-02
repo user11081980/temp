@@ -317,7 +317,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WEjguX_AijGNOpX57H6L" name="CFSE. Wave 9 and 10. Coud Infra">
-    <mxGraphModel dx="1026" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -328,7 +328,7 @@
           <mxGeometry height="120" width="240" x="1000" y="860" as="geometry" />
         </mxCell>
         <mxCell id="XRC2nHOLEjdIa7TtarJm-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="AI Services VNET" vertex="1">
-          <mxGeometry height="180" width="1359.2" x="480.8" y="600" as="geometry" />
+          <mxGeometry height="180" width="1350" x="350" y="600" as="geometry" />
         </mxCell>
         <mxCell id="XRC2nHOLEjdIa7TtarJm-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Core Validation Services" vertex="1">
           <mxGeometry height="180" width="1060" x="480.8" y="380" as="geometry" />
@@ -343,7 +343,7 @@
           <mxGeometry height="120" width="120" x="1560" y="640" as="geometry" />
         </mxCell>
         <mxCell id="aG2-wAyMC6NfG5yah5b7-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;verticalAlign=top;strokeColor=none;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;App Gateway Subnet&lt;/font&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="1700" y="640" as="geometry" />
+          <mxGeometry height="120" width="120" x="370.00000000000006" y="640" as="geometry" />
         </mxCell>
         <mxCell id="aG2-wAyMC6NfG5yah5b7-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;verticalAlign=top;strokeColor=none;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Jumpbox Subnet&lt;/font&gt;" vertex="1">
           <mxGeometry height="120" width="120" x="1420.8" y="640" as="geometry" />
@@ -394,7 +394,7 @@
           <mxGeometry height="20" width="21.66" x="1469.97" y="690" as="geometry" />
         </mxCell>
         <mxCell id="aG2-wAyMC6NfG5yah5b7-13" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Application_Gateway.svg;fontFamily=Verdana;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;App Gateway&lt;/font&gt;" vertex="1">
-          <mxGeometry height="20" width="20" x="1750" y="690" as="geometry" />
+          <mxGeometry height="20" width="20" x="420.00000000000006" y="690" as="geometry" />
         </mxCell>
         <mxCell id="XRC2nHOLEjdIa7TtarJm-7" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;fontFamily=Verdana;" value="Key Vault" vertex="1">
           <mxGeometry height="38" width="38" x="682.41" y="890" as="geometry" />
@@ -430,7 +430,7 @@
           <mxGeometry height="20" width="21.82" x="1119.09" y="680" as="geometry" />
         </mxCell>
         <mxCell id="XRC2nHOLEjdIa7TtarJm-24" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Virtual_Network.svg;fontFamily=Verdana;" value="" vertex="1">
-          <mxGeometry height="20" width="35.71" x="465.04999999999995" y="590" as="geometry" />
+          <mxGeometry height="20" width="35.71" x="334.2899999999999" y="590" as="geometry" />
         </mxCell>
         <mxCell id="XRC2nHOLEjdIa7TtarJm-27" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;fontFamily=Verdana;" value="App Insights" vertex="1">
           <mxGeometry height="40" width="27.94" x="1170.91" y="890" as="geometry" />
