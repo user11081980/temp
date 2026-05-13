@@ -725,6 +725,21 @@
         <mxCell id="sLacXAYcs6-LKSeAjZGh-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" value="Generate Report:&lt;div&gt;Consideraciones Factico-Juridico&lt;/div&gt;&lt;div&gt;V CONSIDERACIONES FINALES&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="370" y="920" as="geometry" />
         </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-10" edge="1" parent="1" source="sLacXAYcs6-LKSeAjZGh-9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" target="sLacXAYcs6-LKSeAjZGh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-9" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;fontFamily=Verdana;" value="Is it one per official?" vertex="1">
+          <mxGeometry height="80" width="110.00000000000001" x="100" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" value="Generate Report:&lt;div&gt;VI PERJUICIO ECONOMICO&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-13" edge="1" parent="1" source="sLacXAYcs6-LKSeAjZGh-12" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" target="sLacXAYcs6-LKSeAjZGh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-12" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;fontFamily=Verdana;" value="How is this generated?&lt;br&gt;Is it always present?" vertex="1">
+          <mxGeometry height="80" width="110.00000000000001" x="100" y="940" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
