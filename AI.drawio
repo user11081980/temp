@@ -740,6 +740,15 @@
         <mxCell id="sLacXAYcs6-LKSeAjZGh-12" parent="1" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;fontFamily=Verdana;" value="How is this generated?&lt;br&gt;Is it always present?" vertex="1">
           <mxGeometry height="80" width="110.00000000000001" x="100" y="940" as="geometry" />
         </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#d5e8d4;strokeColor=#82b366;" value="Generate Report:&lt;div&gt;VII RECOMENDATIONS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Combine all documents in one PDF" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="sLacXAYcs6-LKSeAjZGh-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Store report and combined PDF in case folder" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="1320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
