@@ -930,10 +930,10 @@
         <mxCell id="pjAkbe-POlwHwOynInn7-50" edge="1" parent="pjAkbe-POlwHwOynInn7-1" source="pjAkbe-POlwHwOynInn7-49" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.52;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;strokeColor=#B3B3B3;dashed=1;" target="pjAkbe-POlwHwOynInn7-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lVx9RXlBIzG4QSstfO_C-0" parent="pjAkbe-POlwHwOynInn7-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="Chatbot&lt;br&gt;API" vertex="1">
+        <mxCell id="lVx9RXlBIzG4QSstfO_C-0" parent="pjAkbe-POlwHwOynInn7-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="Chatbot&lt;div&gt;API&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="41.21" x="-40" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="lVx9RXlBIzG4QSstfO_C-1" parent="pjAkbe-POlwHwOynInn7-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="Chatbot&lt;br&gt;Frontend" vertex="1">
+        <mxCell id="lVx9RXlBIzG4QSstfO_C-1" parent="pjAkbe-POlwHwOynInn7-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="Chatbot&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Frontend&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="41.21" x="-120" y="80" as="geometry" />
         </mxCell>
       </root>
