@@ -1141,6 +1141,12 @@
         <mxCell id="3mtXdu4Hb8OTDxxQu3aj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="PowerBI" vertex="1">
           <mxGeometry height="60" width="120" x="800" y="300" as="geometry" />
         </mxCell>
+        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=22;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontFamily=Verdana;" value="Can we use MCP to retrieve all this information?" vertex="1">
+          <mxGeometry height="150" width="150" x="225" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-4" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=23;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontFamily=Verdana;" value="Can we use MCP to save into Azure Cosmos DB" vertex="1">
+          <mxGeometry height="150" width="150" x="520" y="460" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
