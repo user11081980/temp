@@ -311,7 +311,7 @@
         <mxCell id="8jOeiu1QjKTK4P7s6vJZ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;verticalAlign=top;" value="Local Azure MCP Server" vertex="1">
           <mxGeometry height="140" width="200" x="120" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="azmcp CLI tool" vertex="1">
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="azmcp CLI" vertex="1">
           <mxGeometry height="60" width="120" x="160" y="160" as="geometry" />
         </mxCell>
         <mxCell id="8jOeiu1QjKTK4P7s6vJZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure REST APIs" vertex="1">
@@ -328,6 +328,9 @@
         </mxCell>
         <mxCell id="8jOeiu1QjKTK4P7s6vJZ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="LLM" vertex="1">
           <mxGeometry height="60" width="120" x="-80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-17" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=18;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontFamily=Verdana;" value="The commands provided by azmcp CLI are considered &quot;tools&quot; in the context of MCP." vertex="1">
+          <mxGeometry height="150" width="150" x="145" y="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
