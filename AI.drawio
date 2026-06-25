@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="24">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="25">
   <diagram id="R3HYNYz4M3vtuF7tFLm3" name="CleverFi">
     <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -278,24 +278,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q-ljUYgsPYMSq9XN2oMv" name="MCP">
-    <mxGraphModel dx="1826" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1814" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NnLTh8Sp8L4dDNirga1Q-7" edge="1" parent="1" source="NnLTh8Sp8L4dDNirga1Q-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="NnLTh8Sp8L4dDNirga1Q-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NnLTh8Sp8L4dDNirga1Q-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" value="HOST&lt;br&gt;VS Code" vertex="1">
+        <mxCell id="NnLTh8Sp8L4dDNirga1Q-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" value="MCP HOST&lt;br&gt;VS Code" vertex="1">
           <mxGeometry height="160" width="160" x="-40" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="NnLTh8Sp8L4dDNirga1Q-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="CLIENT&lt;br&gt;GitHub Copilot" vertex="1">
+        <mxCell id="NnLTh8Sp8L4dDNirga1Q-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="MCP CLIENT&lt;br&gt;GitHub Copilot" vertex="1">
           <mxGeometry height="60" width="120" x="-20" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="NnLTh8Sp8L4dDNirga1Q-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERVER" vertex="1">
+        <mxCell id="NnLTh8Sp8L4dDNirga1Q-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MCP SERVER" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="130" as="geometry" />
         </mxCell>
         <mxCell id="NnLTh8Sp8L4dDNirga1Q-6" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="&lt;div&gt;HOST manages the LLM. It either hosts the LLM or connects to it.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;CLIENT just connects to the SERVER&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SERVER is unaware of model, it just exposes actions, resources, prompt_templates&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="160" x="-320" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BYnzEWdKRRywqP_ziUfr" name="MCP. Azure MCP Server">
+    <mxGraphModel dx="1814" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-14" edge="1" parent="1" source="8jOeiu1QjKTK4P7s6vJZ-13" style="edgeStyle=none;html=1;fontFamily=Verdana;" target="8jOeiu1QjKTK4P7s6vJZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;verticalAlign=top;" value="Local Azure MCP Server" vertex="1">
+          <mxGeometry height="140" width="200" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="azmcp CLI tool" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure REST APIs" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-10" edge="1" parent="1" source="8jOeiu1QjKTK4P7s6vJZ-7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" target="8jOeiu1QjKTK4P7s6vJZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="User&lt;div&gt;&quot;Generate landing one&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-16" edge="1" parent="1" source="8jOeiu1QjKTK4P7s6vJZ-9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" target="8jOeiu1QjKTK4P7s6vJZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jOeiu1QjKTK4P7s6vJZ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="LLM" vertex="1">
+          <mxGeometry height="60" width="120" x="-80" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
