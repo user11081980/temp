@@ -1137,29 +1137,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="680" width="160" x="220" y="140" as="geometry" />
+        </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-9" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Migrate&lt;br&gt;(Inventory + Assessments)" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="120" as="geometry" />
+          <mxGeometry height="60" width="120" x="-40" y="140" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-10" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Arc" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="240" as="geometry" />
+          <mxGeometry height="60" width="120" x="-40" y="300" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-11" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-3" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="CMDB" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="360" as="geometry" />
+          <mxGeometry height="60" width="120" x="-40" y="380" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-12" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-4" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Static Migration Rules" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="480" as="geometry" />
+          <mxGeometry height="60" width="120" x="-40" y="460" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-13" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-5" style="edgeStyle=none;html=1;fontFamily=Verdana;" target="oHWE3mSqYC91sCwRFsot-6">
           <mxGeometry relative="1" as="geometry" />
@@ -1180,16 +1183,28 @@
           <mxGeometry height="543" width="869" x="1110" y="118.5" as="geometry" />
         </mxCell>
         <mxCell id="CX4omM3PahxudieTea9o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Foundry" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="140" as="geometry" />
+          <mxGeometry height="60" width="120" x="240" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="CX4omM3PahxudieTea9o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="ARM MCP Server&lt;br&gt;(Ready, Remote)" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="440" as="geometry" />
+        <mxCell id="CX4omM3PahxudieTea9o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="ARM MCP Server&lt;br&gt;(Ready, Remote)&lt;div&gt;(ARG)&lt;/div&gt;&lt;div&gt;(Azure Migrate Inventory Only)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="240" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="CX4omM3PahxudieTea9o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure MCP Server&lt;div&gt;(Local)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="240" y="560" as="geometry" />
+        <mxCell id="CX4omM3PahxudieTea9o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure MCP Server&lt;div&gt;(Not Ready, Must Be Deployed)&lt;br&gt;(ARG + REST APIs)&lt;/div&gt;&lt;div&gt;(VMComputer + VMConnection)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="240" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-3" edge="1" parent="1" source="kT3hoLIcCiuG_Br0FYzR-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1.008;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" target="oHWE3mSqYC91sCwRFsot-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kT3hoLIcCiuG_Br0FYzR-1" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" value="ARM MCP Server (queries ARG):&lt;br&gt;Azure Migrate Inventory (no assessments)&lt;br&gt;&lt;br&gt;Azure MCP Server:&lt;br&gt;Azure Migrate Assessment" vertex="1">
           <mxGeometry height="200" width="240" x="480" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Monitor&lt;div&gt;(VMComputer + VMConnection)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom MCP Server&lt;div&gt;(Not Ready, Must Be Developed and Deployed)&lt;br&gt;&lt;div&gt;(Azure Migrate Assessment Only)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="120" x="240" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom MCP Servers..." vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
