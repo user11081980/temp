@@ -1307,16 +1307,16 @@
           <mxGeometry height="120" width="360" x="-1320" y="-360" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-3" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Almacenamiento" vertex="1">
-          <mxGeometry height="200" width="360" x="-880" y="-640" as="geometry" />
+          <mxGeometry height="120" width="360" x="-880" y="-360" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-4" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Consumidores" vertex="1">
-          <mxGeometry height="120" width="360" x="-880" y="-360" as="geometry" />
+          <mxGeometry height="120" width="360" x="-880" y="-640" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-5" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Container App Environment" vertex="1">
           <mxGeometry height="200" width="360" x="-1320" y="-640" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-6" parent="WCy7omy3L8ZjZ47GguWh-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Cosmos DB" vertex="1">
-          <mxGeometry height="40" width="40" x="-720" y="-560" as="geometry" />
+          <mxGeometry height="40" width="40" x="-720" y="-610" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-7" parent="WCy7omy3L8ZjZ47GguWh-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Power BI" vertex="1">
           <mxGeometry height="40" width="30" x="-800" y="-320" as="geometry" />
