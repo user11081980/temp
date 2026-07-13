@@ -1286,6 +1286,12 @@
         <mxCell id="H460rnlH6PGiqGjYsSqD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=#B3B3B3;dashed=1;" value="" vertex="1">
           <mxGeometry height="100" width="320" x="-940.0000000000001" y="-170" as="geometry" />
         </mxCell>
+        <mxCell id="tFIuUoElnO4VkwLaX9JW-5" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontFamily=Verdana;" value="Usuario" vertex="1">
+          <mxGeometry height="40" width="38" x="-1150" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tFIuUoElnO4VkwLaX9JW-6" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_role;fontFamily=Verdana;" value="Trabajo" vertex="1">
+          <mxGeometry height="30" width="37.5" x="-1270.24" y="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
