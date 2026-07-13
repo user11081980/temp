@@ -1137,19 +1137,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VFFqjJiQj4mxJOaaUNrL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;dashed=1;verticalAlign=bottom;" value="Blob Storage" vertex="1">
+          <mxGeometry height="110" width="160" x="-60" y="370" as="geometry" />
+        </mxCell>
         <mxCell id="kT3hoLIcCiuG_Br0FYzR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;" value="" vertex="1">
           <mxGeometry height="680" width="160" x="220" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-9" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Migrate&lt;br&gt;(Inventory + Assessments)" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="140" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-10" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Arc" vertex="1">
+        <mxCell id="oHWE3mSqYC91sCwRFsot-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Monitor&lt;div&gt;(VMComputer + VMConnection)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-40" y="300" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-11" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-3" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
@@ -1157,12 +1154,6 @@
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="CMDB" vertex="1">
           <mxGeometry height="60" width="120" x="-40" y="380" as="geometry" />
-        </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-12" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-4" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Static Migration Rules" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="460" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-13" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-5" style="edgeStyle=none;html=1;fontFamily=Verdana;" target="oHWE3mSqYC91sCwRFsot-6">
           <mxGeometry relative="1" as="geometry" />
@@ -1194,7 +1185,7 @@
         <mxCell id="kT3hoLIcCiuG_Br0FYzR-3" edge="1" parent="1" source="kT3hoLIcCiuG_Br0FYzR-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1.008;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kT3hoLIcCiuG_Br0FYzR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Monitor&lt;div&gt;(VMComputer + VMConnection)&lt;/div&gt;" vertex="1">
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Migrate&lt;br&gt;(Inventory + Assessments)" vertex="1">
           <mxGeometry height="60" width="120" x="-40" y="220" as="geometry" />
         </mxCell>
         <mxCell id="kT3hoLIcCiuG_Br0FYzR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom MCP Server&lt;div&gt;(Not Ready, Must Be Developed and Deployed)&lt;br&gt;&lt;div&gt;(Azure Migrate Assessment Only)&lt;/div&gt;&lt;/div&gt;" vertex="1">
@@ -1202,12 +1193,6 @@
         </mxCell>
         <mxCell id="kT3hoLIcCiuG_Br0FYzR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom MCP Servers..." vertex="1">
           <mxGeometry height="60" width="120" x="240" y="740" as="geometry" />
-        </mxCell>
-        <mxCell id="VFFqjJiQj4mxJOaaUNrL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Business Case" vertex="1">
-          <mxGeometry height="60" width="120" x="-40" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="VFFqjJiQj4mxJOaaUNrL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;dashed=1;verticalAlign=bottom;" value="Blob Storage/ Cosmos DB" vertex="1">
-          <mxGeometry height="260" width="160" x="-60" y="370" as="geometry" />
         </mxCell>
         <mxCell id="NNFtM-o2cD6JzkiU4j18-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom Web Apps" vertex="1">
           <mxGeometry height="60" width="120" x="800" y="380" as="geometry" />
