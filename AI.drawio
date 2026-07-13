@@ -1170,14 +1170,17 @@
         <mxCell id="oHWE3mSqYC91sCwRFsot-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="GPT_RAG" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-2" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;" target="3mtXdu4Hb8OTDxxQu3aj-1">
+        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-2" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3mtXdu4Hb8OTDxxQu3aj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NNFtM-o2cD6JzkiU4j18-2" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="NNFtM-o2cD6JzkiU4j18-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Cosmos DB" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="PowerBI&lt;br&gt;Custom Web Apps" vertex="1">
-          <mxGeometry height="60" width="120" x="800" y="300" as="geometry" />
+        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="PowerBI" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="220" as="geometry" />
         </mxCell>
         <mxCell id="CX4omM3PahxudieTea9o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Foundry" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="220" as="geometry" />
@@ -1205,6 +1208,9 @@
         </mxCell>
         <mxCell id="VFFqjJiQj4mxJOaaUNrL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;dashed=1;verticalAlign=bottom;" value="Blob Storage/ Cosmos DB" vertex="1">
           <mxGeometry height="260" width="160" x="-60" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="NNFtM-o2cD6JzkiU4j18-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom Web Apps" vertex="1">
+          <mxGeometry height="60" width="120" x="800" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
