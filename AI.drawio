@@ -1280,7 +1280,7 @@
         <mxCell id="WCy7omy3L8ZjZ47GguWh-20" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;fontFamily=Verdana;" value="Azure Migrate&lt;div&gt;REST API&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="50" x="-1520" y="-480" as="geometry" />
         </mxCell>
-        <mxCell id="WCy7omy3L8ZjZ47GguWh-21" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;fontFamily=Verdana;" value="Azure Monitor logs Query&lt;div&gt;REST API&lt;/div&gt;" vertex="1">
+        <mxCell id="WCy7omy3L8ZjZ47GguWh-21" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;fontFamily=Verdana;" value="Azure Monitor Logs Query&lt;div&gt;REST API&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="50" x="-1520" y="-360" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-25" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontFamily=Verdana;" value="Usuario&lt;div&gt;(Via Chatbot)&lt;/div&gt;" vertex="1">
