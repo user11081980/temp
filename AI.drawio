@@ -1158,7 +1158,7 @@
         <mxCell id="oHWE3mSqYC91sCwRFsot-13" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-5" style="edgeStyle=none;html=1;fontFamily=Verdana;" target="oHWE3mSqYC91sCwRFsot-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="GPT_RAG" vertex="1">
+        <mxCell id="oHWE3mSqYC91sCwRFsot-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="GPT RAG&lt;div&gt;Orchestrator&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="300" as="geometry" />
         </mxCell>
         <mxCell id="3mtXdu4Hb8OTDxxQu3aj-2" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3mtXdu4Hb8OTDxxQu3aj-1">
