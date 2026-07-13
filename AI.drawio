@@ -1296,10 +1296,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Mapfre. Wave 1" id="x-IA9uCEQ6YhqlwB-sMs">
-    <mxGraphModel dx="3414" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3414" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-0" />
         <mxCell id="WCy7omy3L8ZjZ47GguWh-1" parent="WCy7omy3L8ZjZ47GguWh-0" />
+        <mxCell id="dZj0BWy5l6vjuWg8VdRW-0" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="480" width="1320" x="-1800" y="-680" as="geometry" />
+        </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-2" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Foundry" vertex="1">
           <mxGeometry height="120" width="360" x="-1320" y="-360" as="geometry" />
         </mxCell>
@@ -1370,10 +1373,10 @@
           <mxGeometry height="100" width="320" x="-1740" y="-490" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-25" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontFamily=Verdana;" value="Usuario" vertex="1">
-          <mxGeometry height="40" width="38" x="-1260" y="-750" as="geometry" />
+          <mxGeometry height="40" width="38" x="-1320" y="-840" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-26" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.worker_role;fontFamily=Verdana;" value="Planificador&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="37.5" x="-1380" y="-750" as="geometry" />
+          <mxGeometry height="30" width="37.5" x="-1460" y="-810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
