@@ -1217,6 +1217,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9M2Sc1YyUineWu8ucVNS-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Almacenamiento (Salida)" vertex="1">
+          <mxGeometry height="520" width="280" x="320" y="240" as="geometry" />
+        </mxCell>
         <mxCell id="9M2Sc1YyUineWu8ucVNS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Consumidores" vertex="1">
           <mxGeometry height="520" width="280" x="680" y="240" as="geometry" />
         </mxCell>
@@ -1226,8 +1229,8 @@
         <mxCell id="n2cOkYr68NVB9dtho7ri-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Fuentes (Entradas)" vertex="1">
           <mxGeometry height="400" width="360" x="-520" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="JIWEmmT9txDF_maf3r2D-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fontFamily=Verdana;" value="Cosmos DB" vertex="1">
-          <mxGeometry height="40" width="40" x="214" y="820" as="geometry" />
+        <mxCell id="JIWEmmT9txDF_maf3r2D-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Cosmos DB" vertex="1">
+          <mxGeometry height="40" width="40" x="440" y="280" as="geometry" />
         </mxCell>
         <mxCell id="JIWEmmT9txDF_maf3r2D-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Power BI" vertex="1">
           <mxGeometry height="40" width="30" x="800" y="280" as="geometry" />
