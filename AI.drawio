@@ -1238,12 +1238,6 @@
         <mxCell id="JIWEmmT9txDF_maf3r2D-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Web Apps" vertex="1">
           <mxGeometry height="40" width="40" x="-400" y="-60" as="geometry" />
         </mxCell>
-        <mxCell id="JIWEmmT9txDF_maf3r2D-13" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=19;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontFamily=Verdana;" value="All&lt;br&gt;2 Azure AI Foundry Project&lt;br&gt;3 Azure Foundry Agent" vertex="1">
-          <mxGeometry height="150" width="150" x="590" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="JIWEmmT9txDF_maf3r2D-17" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;autosizeText=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;fontSize=6;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontFamily=Verdana;" value="Icons&amp;nbsp;https://learn.microsoft.com/en-us/azure/foundry/" vertex="1">
-          <mxGeometry height="150" width="150" x="810" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="qMSadQHHmH8BI6ly_Whw-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;labelBackgroundColor=none;fontFamily=Verdana;" value="Azure MCP Server" vertex="1">
           <mxGeometry height="40" width="41.21" x="-1200" y="-280" as="geometry" />
         </mxCell>
