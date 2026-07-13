@@ -1137,28 +1137,28 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VFFqjJiQj4mxJOaaUNrL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;dashed=1;verticalAlign=bottom;" value="Blob Storage" vertex="1">
+        <mxCell id="VFFqjJiQj4mxJOaaUNrL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;verticalAlign=bottom;fontColor=#333333;strokeColor=#666666;" value="Blob Storage" vertex="1">
           <mxGeometry height="110" width="160" x="-60" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="kT3hoLIcCiuG_Br0FYzR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;verticalAlign=bottom;dashed=1;" value="Processing" vertex="1">
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;verticalAlign=bottom;fontColor=#333333;strokeColor=#666666;" value="Processing" vertex="1">
           <mxGeometry height="360" width="160" x="220" y="200" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-10" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Monitor&lt;div&gt;(VMComputer + VMConnection)&lt;/div&gt;" vertex="1">
+        <mxCell id="oHWE3mSqYC91sCwRFsot-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Azure Monitor&lt;div&gt;(VMComputer + VMConnection)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-40" y="300" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-11" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-3" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="CMDB" vertex="1">
+        <mxCell id="oHWE3mSqYC91sCwRFsot-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CMDB" vertex="1">
           <mxGeometry height="60" width="120" x="-40" y="380" as="geometry" />
         </mxCell>
         <mxCell id="oHWE3mSqYC91sCwRFsot-13" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-5" style="edgeStyle=none;html=1;fontFamily=Verdana;" target="oHWE3mSqYC91sCwRFsot-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="GPT RAG&lt;div&gt;Orchestrator&lt;/div&gt;" vertex="1">
+        <mxCell id="oHWE3mSqYC91sCwRFsot-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="GPT RAG&lt;div&gt;Orchestrator&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="300" as="geometry" />
         </mxCell>
         <mxCell id="3mtXdu4Hb8OTDxxQu3aj-2" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="3mtXdu4Hb8OTDxxQu3aj-1">
@@ -1167,28 +1167,28 @@
         <mxCell id="NNFtM-o2cD6JzkiU4j18-2" edge="1" parent="1" source="oHWE3mSqYC91sCwRFsot-6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="NNFtM-o2cD6JzkiU4j18-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oHWE3mSqYC91sCwRFsot-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Cosmos DB" vertex="1">
+        <mxCell id="oHWE3mSqYC91sCwRFsot-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Azure Cosmos DB" vertex="1">
           <mxGeometry height="60" width="120" x="520" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="PowerBI" vertex="1">
+        <mxCell id="3mtXdu4Hb8OTDxxQu3aj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="PowerBI" vertex="1">
           <mxGeometry height="60" width="120" x="800" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="CX4omM3PahxudieTea9o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Foundry" vertex="1">
+        <mxCell id="CX4omM3PahxudieTea9o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Foundry" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="CX4omM3PahxudieTea9o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure MCP Server" vertex="1">
+        <mxCell id="CX4omM3PahxudieTea9o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Azure MCP Server" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="CX4omM3PahxudieTea9o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom MCP Server" vertex="1">
+        <mxCell id="CX4omM3PahxudieTea9o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Custom MCP Server" vertex="1">
           <mxGeometry height="60" width="120" x="240" y="460" as="geometry" />
         </mxCell>
         <mxCell id="kT3hoLIcCiuG_Br0FYzR-3" edge="1" parent="1" source="kT3hoLIcCiuG_Br0FYzR-2" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;exitX=1.008;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" target="oHWE3mSqYC91sCwRFsot-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kT3hoLIcCiuG_Br0FYzR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Azure Migrate&lt;br&gt;(Inventory + Assessments)" vertex="1">
+        <mxCell id="kT3hoLIcCiuG_Br0FYzR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Azure Migrate&lt;br&gt;(Inventory + Assessments)" vertex="1">
           <mxGeometry height="60" width="120" x="-40" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="NNFtM-o2cD6JzkiU4j18-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;" value="Custom Web Apps" vertex="1">
+        <mxCell id="NNFtM-o2cD6JzkiU4j18-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Custom Web Apps" vertex="1">
           <mxGeometry height="60" width="120" x="800" y="380" as="geometry" />
         </mxCell>
       </root>
