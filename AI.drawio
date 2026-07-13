@@ -1345,11 +1345,20 @@
         <mxCell id="WCy7omy3L8ZjZ47GguWh-15" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;verticalAlign=top;" value="Fuentes" vertex="1">
           <mxGeometry height="400" width="360" x="-1760" y="-640" as="geometry" />
         </mxCell>
+        <mxCell id="WCy7omy3L8ZjZ47GguWh-23" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFFFFF;strokeColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="100" width="320" x="-1740" y="-610" as="geometry" />
+        </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-16" parent="WCy7omy3L8ZjZ47GguWh-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/migrate/Azure_Migrate.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Azure Migrate&lt;div&gt;Inventory&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="49.09" x="-1680" y="-600" as="geometry" />
         </mxCell>
+        <mxCell id="WCy7omy3L8ZjZ47GguWh-22" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFFFFF;strokeColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="100" width="320" x="-1740" y="-370" as="geometry" />
+        </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-17" parent="WCy7omy3L8ZjZ47GguWh-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/Monitor.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Azure Monitor&lt;div&gt;Dependency Mapping&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="40" x="-1675.4500000000003" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="WCy7omy3L8ZjZ47GguWh-24" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=#FFFFFF;strokeColor=none;dashed=1;" value="" vertex="1">
+          <mxGeometry height="100" width="320" x="-1740" y="-490" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-18" parent="WCy7omy3L8ZjZ47GguWh-1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/migrate/Azure_Migrate.svg;fontFamily=Verdana;labelBackgroundColor=none;" value="Azure Migrate&lt;div&gt;Assessments&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="49.09" x="-1680" y="-480" as="geometry" />
@@ -1362,15 +1371,6 @@
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-21" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.automation;pointerEvents=1;fontFamily=Verdana;" value="Azure Monitor logs Query&lt;div&gt;REST API&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="50" x="-1520" y="-360" as="geometry" />
-        </mxCell>
-        <mxCell id="WCy7omy3L8ZjZ47GguWh-22" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=#B3B3B3;dashed=1;" value="" vertex="1">
-          <mxGeometry height="100" width="320" x="-1740" y="-370" as="geometry" />
-        </mxCell>
-        <mxCell id="WCy7omy3L8ZjZ47GguWh-23" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=#B3B3B3;dashed=1;" value="" vertex="1">
-          <mxGeometry height="100" width="320" x="-1740" y="-610" as="geometry" />
-        </mxCell>
-        <mxCell id="WCy7omy3L8ZjZ47GguWh-24" parent="WCy7omy3L8ZjZ47GguWh-1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;strokeColor=#B3B3B3;dashed=1;" value="" vertex="1">
-          <mxGeometry height="100" width="320" x="-1740" y="-490" as="geometry" />
         </mxCell>
         <mxCell id="WCy7omy3L8ZjZ47GguWh-25" parent="WCy7omy3L8ZjZ47GguWh-1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;fontFamily=Verdana;" value="Usuario" vertex="1">
           <mxGeometry height="40" width="38" x="-1320" y="-840" as="geometry" />
